@@ -12,6 +12,7 @@ module.exports = {
                 console.log(err)
             })
     },
+  
     getOne: (req, res, next) => {
         const db = req.app.get('db')
         const { id } = req.params
